@@ -21,3 +21,8 @@ Kernel compile process by Melnikov Alexey
 19. make modules_install
 20. make install Now it worked clear
 21. New kernel on /boot/vmlinuz-5.2.8!
+22. Unpack to the new dir
+23. copy .config from previos
+24. make oldconfig - very fast! No changes!
+25. In the new dir - make -j4 (4 - cout of my CPU kernel)
+26. Great! Compiling take just about 1 hour! But LA was 5.5 versus 2 in the previous time.
